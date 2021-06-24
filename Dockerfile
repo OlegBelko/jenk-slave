@@ -1,5 +1,4 @@
 FROM jenkinsci/slave:alpine
-MAINTAINER Julien Maitrehenry <julien.maitrehenry@me.com>
 USER root
 
 RUN apk add --update --no-cache docker curl py-pip && \
